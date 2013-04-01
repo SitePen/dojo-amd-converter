@@ -10,5 +10,5 @@ Requirements
 How to use
 ----------
 
-1. `git clone --recursive`
+1. `git clone --recursive` https://github.com/SitePen/dojo-amd-converter.git
 2. `./parse.sh config.js`
