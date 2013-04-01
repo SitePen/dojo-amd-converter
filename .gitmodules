@@ -1,0 +1,6 @@
+[submodule "esprima"]
+	path = esprima
+	url = https://github.com/ariya/esprima.git
+[submodule "dojo"]
+	path = dojo
+	url = https://github.com/dojo/dojo.git
