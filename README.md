@@ -1,4 +1,4 @@
-amDONE! A legacy dojo to amd conversion utility.
+amDONE! A legacy Dojo to AMD conversion utility.
 ================================================
 
 Status
@@ -22,6 +22,6 @@ How to use
 Getting Involved
 ----------------
 
-To getinvolved, you should have a 
+To get involved, you should have a 
 <a href="http://dojofoundation.org/about/cla">Dojo Foundation CLA on file</a>. 
 This project was started by the team at <a href="http://sitepen.com/">SitePen</a>. 
