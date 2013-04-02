@@ -1,6 +1,12 @@
 amDONE! A legacy dojo to amd conversion utility.
 ================================================
 
+Status
+------------
+This project is currently alpha-quality code. You should carefully verify the 
+output of any code you run through this tool, as well as read through the list 
+of known issues.
+
 Requirements
 ------------
 
@@ -12,3 +18,10 @@ How to use
 
 1. `git clone --recursive` https://github.com/SitePen/dojo-amd-converter.git
 2. `./parse.sh config.js`
+
+Getting Involved
+----------------
+
+To getinvolved, you should have a 
+<a href="http://dojofoundation.org/about/cla">Dojo Foundation CLA on file</a>. 
+This project was started by the team at <a href="http://sitepen.com/">SitePen</a>. 
