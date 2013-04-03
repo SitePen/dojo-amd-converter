@@ -18,6 +18,7 @@ How to use
 
 1. `git clone --recursive` https://github.com/SitePen/dojo-amd-converter.git
 2. `./parse.sh config.js`
+  - If you get permission denied errors, chmod +x parse.sh should correct the issue.
 
 Getting Involved
 ----------------
