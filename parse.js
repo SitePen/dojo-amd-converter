@@ -33,7 +33,7 @@ define([
 		//	summary:
 		//		Processes a file or directory at the given path.
 
-		path = pathUtil.join(parent, path);
+		path = pathUtil.join(parent, path || "");
 
 		var stats;
 		try {
@@ -51,7 +51,7 @@ define([
 			fs.readdirSync(path).sort().forEach(processPath.bind(this, path));
 		}
 		else if (stats.isFile()) {
-			path = path.slice(config.srcDir.length + 1);
+			path = path.slice(config.srcDir.length);
 
 			// Skip excluded paths
 			if (config.excludePaths.some(function (exclude) { return exclude.test(path); })) {
