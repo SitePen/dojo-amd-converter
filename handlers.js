@@ -601,7 +601,7 @@ define([
 					module.addDependency("dojo/_base/lang", "lang");
 					module.replaceCode(object, "aspect.after(" +
 						module.getCodeFrom(args[0]) + ", " +
-						module.getCodeFrom(args[1]) + "lang.hitch(" +
+						module.getCodeFrom(args[1]) + ", lang.hitch(" +
 						module.getCodeFrom(args[2]) + ", " +
 						module.getCodeFrom(args[3]) + "), true)");
 				}
