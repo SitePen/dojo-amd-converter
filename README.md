@@ -2,10 +2,11 @@ amDONE! A legacy Dojo to AMD conversion utility.
 ================================================
 
 Status
-------------
-This project is currently alpha-quality code. You should carefully verify the 
-output of any code you run through this tool, as well as read through the list 
-of known issues.
+------
+This project is currently alpha-quality and is provided to the public *as-is*.
+No additional development of this project is currently planned.
+You should carefully verify the output of any code you run through this tool,
+as well as read through the list of known issues.
 
 Requirements
 ------------
