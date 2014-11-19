@@ -494,7 +494,7 @@ define([
 		return function (module) {
 			module.addDependency("dojo/topic", "topic");
 			module.replaceCode(object, "topic.publish(" +
-				module.getCodeFrom(args[0]) + (args.length > 1 ? ", " + module.getCodeFrom(args[1].elements) : "") + ")");
+				module.getCodeFrom(args[0]) + (args.length > 1 ? ", " + module.getCodeFrom(args[1].type === "ArrayExpression" ? args[1].elements : args[1]) : "") + ")");
 		};
 	});
 
